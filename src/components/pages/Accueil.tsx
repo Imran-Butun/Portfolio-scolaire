@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRight, Award, Video, Palette } from 'lucide-react';
-
+import Image from '../../Image/Imranpose.JPG';
 interface AccueilProps {
   setActiveTab: (tab: 'accueil' | 'projets' | 'blog' | 'contact' | 'apropos') => void;
 }
@@ -63,7 +63,7 @@ const Accueil: React.FC<AccueilProps> = ({ setActiveTab }) => {
           </div>
           <div className="relative">
             <img
-              src="../Image/Imranpose3.JPG"
+              src={Image}
               alt="Workspace créatif audiovisuel"
               className="rounded-xl shadow-lg"
             />

@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/Portfolio-scolaire/', // Remplacez par le nom de votre dépôt GitHub
+  assetsInclude: ['**/*.JPG'],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
